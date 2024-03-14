@@ -1,0 +1,90 @@
+*,::after,::before{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.main{
+    background: linear-gradient(240deg,rgb(175, 30, 175),rgb(75, 75, 163),rgb(129, 129, 240));
+    min-height: 10vh;
+    width: 24%;
+    border-radius: 20px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+#country{
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 30px;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+img{
+    width: 15px;
+}
+.btn{
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.weather{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 20vh;
+    justify-content: space-around;
+    min-height: 10vh;
+}
+.weather img{
+    width: 100px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.weather p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white ;
+}
+
+.environment{
+    display: flex;
+    height: auto;
+}
+.left{
+    margin-right: 200px;
+}
+.left, .right{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.left img{
+    width: 50px;
+    height: 50px;
+}
+.right img{
+    width: 50px;
+    height: 50px;
+}
+.left div p{
+    width: 10px;
+    margin:10px;
+}
+
+.right div p{
+    width: 10px;
+    margin:10px;
+}
